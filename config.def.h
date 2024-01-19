@@ -1,5 +1,12 @@
 /* See LICENSE file for copyright and license details. */
 
+/* battery levels to notify - add any levels you want to receive notification for (in percent) */
+const int notifiable_levels[] = {
+    20,
+    10,
+    5,
+};
+
 /* interval between updates (in ms) */
 const unsigned int interval = 1000;
 
